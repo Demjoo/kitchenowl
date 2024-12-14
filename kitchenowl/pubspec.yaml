@@ -81,6 +81,8 @@ dev_dependencies:
   flutter_lints: ^5.0.0
   icons_launcher: ^3.0.0
   flutter_native_splash: ^2.3.5
+  mockito: ^5.4.0
+  build_runner: ^2.4.0
 
 # The following section is specific to Flutter.
 flutter:
@@ -138,7 +140,7 @@ icons_launcher:
     android:
       enable: true
       image_path: "assets/icon/icon-small.png"
-      adaptive_background_color: '#20AC64'
+      adaptive_background_color: "#20AC64"
       adaptive_foreground_image: "assets/icon/icon-foreground.png"
       adaptive_round_image: "assets/icon/icon-foreground.png"
       adaptive_monochrome_image: "assets/icon/icon-foreground.png"
